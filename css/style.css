@@ -35,8 +35,11 @@ h3 {
     text-decoration: none;
 }
 .character{
-    min-height: 100vh;
+    min-height: 800px;
+    max-width: 1500px;
     background: #fff;
+    border-radius: 20px;
+   
     display: flex;
     justify-content:center;
     align-items: center;
@@ -106,6 +109,7 @@ h3 {
     .character{
         padding-top: 30px;
         margin: 25px;
+        border-radius: 5px;
     }
     .character__container{
         grid-row-gap: 20px;
