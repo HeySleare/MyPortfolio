@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: floralwhite;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
@@ -35,9 +36,12 @@ h3 {
 }
 .character{
     min-height: 100vh;
+    background: #fff;
     display: flex;
     justify-content:center;
     align-items: center;
+    margin: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .container{
@@ -59,9 +63,12 @@ h3 {
 }
 
 .character__title{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     font-size: 48px;
     line-height: 1.1px;
+}
+.speciality{
+    font-size: 38px;
     
 }
 .character__links{
@@ -98,6 +105,7 @@ h3 {
 @media screen and (max-width: 978px){
     .character{
         padding-top: 30px;
+        margin: 25px;
     }
     .character__container{
         grid-row-gap: 20px;
@@ -105,6 +113,9 @@ h3 {
     .character__title{
         font-size: 28px;
         margin-bottom: 10px;
+    }
+    .speciality{
+        font-size: 25px;    
     }
     .character_subtitle{
         font-size: 22px;
