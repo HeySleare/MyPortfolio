@@ -20,7 +20,6 @@ body {
     background-color: floralwhite;
   margin: 0;
   padding: 0;
-  padding-top: 20px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -37,9 +36,6 @@ h3 {
 
 
 .header{
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     padding:0;
     text-align: center;
@@ -51,9 +47,6 @@ h3 {
 }
 .paragrafs{
     display: flex;
-    
-    justify-content:center;
-    
     
 }
 .paragrafs > a{
@@ -117,7 +110,6 @@ h3 {
 }
 .also__text{
     font-size:20px;
-    padding: 10px;
 }
 .also__text span{
  color: #770f6f;
@@ -125,7 +117,7 @@ h3 {
  font-weight: bold;
 }
 .percent{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
     position: relative;
     width: 100%;
     height: 10px;
@@ -134,7 +126,6 @@ h3 {
     margin-top: 5px;
 }   
 .percent div{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     position: absolute;
     top: 0;
     left: 0;
@@ -200,25 +191,10 @@ h3 {
 }
 
 @media screen and (max-width: 978px){
-    
-    .paragrafs{
-        font-size: 20px;
-    }
     .character{
         padding-top: 30px;
         margin: 25px;
         border-radius: 5px;
-    }
-    .skill__list-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .skill__list{
-        font-size: 20px;
-    }
-    .skill__title{
-        font-size: 30px;
-    
     }
     .character__container{
         grid-row-gap: 20px;
