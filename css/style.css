@@ -48,6 +48,9 @@ h3 {
     color: gray;
     background: #0000007c;
     border: solid #770f6f 3px;
+    border-radius: 0 0 30px 25px;
+    
+    animation: header-animate 2s infinite alternate;
 }
 .paragrafs{
     display: flex;
@@ -140,6 +143,12 @@ h3 {
     left: 0;
     height: 100%;
     background: #770f6f;
+}
+.portfolio__container{}
+.alert__text{
+    font-size: 50px;
+    color: red;
+    text-align: center;
 }
 .container{
     max-width: 1230px;
@@ -262,6 +271,16 @@ h3 {
 
     100%{
         border-radius: 68% 32% 74% 26% / 47% 12% 88% 53%  ;
+    }
+}
+@keyframes header-animate{
+    0%{
+        
+    border-radius: 0 0 15% 30%; 
+    }
+
+    100%{
+        border-radius: 0 0 30% 15%;
     }
 }
 
